@@ -259,13 +259,13 @@ int Arithmetic(char **args){
     if(strcmp(op,"+")==0){
         setValue(v1,val2+val3);
     }
-    else if(strcmp(op,"-")){
+    else if(strcmp(op,"-")==0){
         setValue(v1,val2-val3);
     }
-    else if(strcmp(op,"*")){
+    else if(strcmp(op,"*")==0){
         setValue(v1,val2*val3);
     }
-    else if(strcmp(op,"/")){
+    else if(strcmp(op,"/")==0){
         if(val3==0){
             printf("Division by zero not allowed\n");
         }
