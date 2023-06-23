@@ -16,7 +16,6 @@ Byteshell is a simple shell program implemented in C. It provides a command-line
   - `get`: Get the value of a variable from the shell's map.
 - **Command History**: Byteshell maintains a stack-based command history, allowing users to access and repeat previously executed commands.
 - **Map Implementation**: The shell uses a map data structure to store variables and their corresponding values. It provides functions to get and set values in the map.
-- **Redirection**: Users can redirect the input and output of commands using the standard input/output redirection operators (`<` and `>`).
 
 ## Implementation Details
 
