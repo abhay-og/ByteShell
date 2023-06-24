@@ -9,7 +9,7 @@ const char *TOKEN=" ";
 char builtins[8][10]={"cd","help","exit","history","echo","export","math","get"};
 #define MX_SZ 100
 
-///////// MAP TO STORE THE VARIABLES USED IN THE SESSION AND ITS UTILITY FUNCTIONS
+///////// MAP TO STORE THE VARIABLES USED IN THE SESSION AND ITS UTILITY FUNCTIONS 
 typedef struct{
     char key[MX_SZ];
     int value;
